@@ -1,0 +1,164 @@
+h1 {
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+
+  color: #fff;
+}
+h2 {
+  font-family: 'Pacifico', cursive;
+}
+body {
+  font-family: 'Yusei Magic', sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+}
+hr {
+  border: dotted #a1dbf6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: #61b1d7;
+}
+.nav-item {
+  padding: 0 20px;
+}
+.nav-link {
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #aaaaaa;
+}
+.download-button {
+  color: #61b1d7;
+}
+/* Cat of the Day*/
+#carousel-title {
+  margin: 20px 60px;
+}
+#carousel-first {
+padding: 5% 3% 5% 3%;
+background-color: #61b1d7;
+}
+.catday {
+  margin-left:60px;
+  line-height: 30px;
+}
+.cat-day-button {
+  color: #61b1d7;
+  margin: 10px 10px;
+}
+.cat-day-image {
+width: 100%;
+padding-left: 50px;
+}
+/*Monthly Box Theme */
+#month-box {
+padding: 100px 100px;
+color: #4c94b6;
+margin: 50px 50px;
+padding-left: 150px;
+}
+.month {
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  color: #61b1d7;
+}
+.month-first {
+  line-height: 2rem;
+}
+.month-descrip {
+  width: 70%;
+  margin: 0 0;
+  align-items:center;
+}
+.month-button {
+  background-color: #61b1d7;
+  margin: 3% 3% 5% 0;
+}
+.superhero-cat {
+  width: 70%;
+}
+/* Email Sign Up */
+.sign-up {
+  background-color: #4c94b6;
+  margin: auto;
+  padding: 20px 20px;
+}
+.sign-text {
+  padding-left: 150px;
+}
+/* How Caterly Works */
+#utility {
+  color: #4c94b6;
+  margin: 150px 100px;
+  text-align:center;
+  line-height: 2rem;
+}
+.works {
+  color: #61b1d7;
+  padding-bottom: 30px;
+}
+.caterly-method {
+  width: 50%;
+}
+.utility-image {
+  width: 30%;
+  padding-bottom: 10px;
+}
+.utility-button {
+padding-top: 100px;
+}
+.box-button {
+  background-color: #61b1d7;
+}
+.like {
+  color: #61b1d7;
+  font-family: 'Yusei Magic', sans-serif;
+}
+/* Caterly Family */
+#family {
+  background-color: #61b1d7;
+  margin: auto;
+  padding: 100px 100px;
+}
+.family-title {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  padding: 0 0 100px;
+}
+.family-image {
+  width: 40%;
+}
+.family-text {
+  float: right;
+  width: 50%;
+  margin: 0 40px 0;
+  line-height: 1.5;
+}
+/*Press */
+#press {
+  background-color: #61b1d7;
+  text-align: center;
+  padding-bottom: 100px;
+}
+/* Questions and Concerns */
+#help {
+  margin: auto;
+  padding: 100px 100px;
+}
+.help-div {
+  margin: auto;
+}
+.help-text {
+  color: #4c94b6;
+}
+.help-title {
+  color: #61b1d7;
+}

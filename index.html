@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caterly</title>
+  <!-- CSS Stylesheets & Bootsrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Yusei+Magic&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <section id="title">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <a class="navbar-brand" href="#">Caterly.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <form class="container-fluid justify-content-start">
+            <button type="button" class="btn btn-light btn-sm download-button">Get Started</button>
+          </form>
+      </div>
+    </nav>
+  </section>
+  <!-- Cat of the Day -->
+  <section id="carousel-title">
+    <!-- First Carousel -->
+    <!-- First Slide -->
+    <div id="carousel-first" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="5000">
+          <div class="row catday">
+            <div class="col-lg-3">
+              <img src="cats/tuxie.jpg" class="cat-day-image d-block" alt="cute gray tuxedo cat">
+            </div>
+            <div class="col-lg-6">
+              <h1>Congragulations to Lilly from Florida for winning Cat of the Day!</h1>
+              <h2>Today's Theme: Tuxedo Takeover</h2>
+              <p>Lilly totally stole our hearts. We hope you'll enjoy our little gift for her and you, too.</p>
+              <button type="button" class="btn btn-light btn-lg cat-day-button">How to Enter</button>
+              <button type="button" class="btn btn-light btn-lg cat-day-button">Tomorrow's Theme</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Slide -->
+        <div class="carousel-item" data-interval="5000">
+          <div class="row catday">
+            <div class="col-lg-3">
+              <img src="cats/er.jpg" class="cat-day-image d-block" alt="tabby kitten with yarn sticker">
+            </div>
+            <div class="col-lg-6">
+              <h1>Yesterday's winner for Cat of the Day: Fluffy from Vermont!</h1>
+              <h2>Yesterday's Theme: Kitten Chaos</h2>
+              <p>What a darling Fluffy is! We can't wait to see her grow.</p>
+              <button type="button" class="btn btn-light btn-lg cat-day-button">How to Enter</button>
+              <button type="button" class="btn btn-light btn-lg cat-day-button">Tomorrow's Theme</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Monthly Caterly Box -->
+  <section id="month-box">
+    <div class="row">
+      <div class="col-lg-6 month-first">
+        <p>This Month's Caterly Box Theme</p>
+        <h1 class="month">Supermeower Gadjets</h1>
+        <p class="month-descrip"> Save your cat's world with this month's super treats and an exclusive superhero outfit to boot. Will fluffy finally catch those pesky villains that chirp every morning?</p>
+        <button type="button" class="btn btn-dark btn-lg btn-outline-light month-button">Join in on the Fun</button>
+        <button type="button" class="btn btn-dark btn-lg btn-outline-light month-button">Previous Month Themes</button>
+      </div>
+      <div class="col-lg-6 mon">
+        <img src="cats/superhero-cat.jpg" class="superhero-cat" alt="cat in superhero costume">
+      </div>
+    </div>
+  </section>
+  <!--E-mail Sign up -->
+  <div class="row sign-up">
+    <div class=col-lg-6>
+      <p class="sign-text">Sign up for exclusive info from Caterly and get access to all types of fun!</p>
+    </div>
+    <div class="col-lg-6">
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="inputPassword2" class="sr-only">Password</label>
+          <input type="email" class="form-control" style="margin-left: 25px;"id="inputEmail" placeholder="email address">
+          <button type="submit" class="btn btn-light" style="margin: 10px">Sign Me Up!</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!--How Caterly Works -->
+  <section id="utility">
+    <h1 class="works">How Caterly Works</h1>
+    <div class="row caterly-works">
+      <div class="caterly-method col-lg-4 col-sm-12">
+        <img src="cats/kitty.png" class="utility-image">
+        <p>Subscribe, at just $20 a month!</p>
+      </div>
+      <div class="caterly-method col-lg-4 col-sm-12">
+        <img src="cats/box.png" class="utility-image">
+        <p>Your Caterly box gets shipped to you.</p>
+      </div>
+      <div class="caterly-method col-lg-4 col-sm-12">
+        <img src="cats/kitty2.png" class="utility-image">
+        <p>Your cat enjoys the fun all month long.</p>
+      </div>
+    </div>
+    <div class="utility-button">
+      <p class="like">Ready to make your cat's month?</p>
+      <button type="button" class="btn btn-dark btn-lg btn-outline-light box-button">Let's Go!</button>
+    </div>
+  </section>
+  <!--Caterly Family -->
+  <section id="family">
+  <h1 class="family-title">Feedback from the Caterly Family!</h1>
+  <div class="row">
+    <div class="instagram-column col-lg-6">
+      <img src="cats/cat+toy.jpg" class="family-image">
+      <h5 class="family-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Praesent lobortis accumsan magna, at fringilla quam maximus finibus. Nulla aliquam vel urna in tincidunt.
+        Nam in ultricies erat.</h5>
+      <p class="family-text">-Cat, @ilovecats</p>
+      </div>
+    <div class="instagram-column col-lg-6">
+      <img src="cats/cat+toy.jpg" class="family-image">
+      <h5 class="family-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Praesent lobortis accumsan magna, at fringilla quam maximus finibus. Nulla aliquam vel urna in tincidunt.
+        Nam in ultricies erat.</h5>
+      <p class="family-text">-Cat, @ilovecats</p>
+    </div>
+  </div>
+  </section>
+
+  <section id="press">
+      <img class="press-logo" src="cats/techcrunch.png" alt="tc-logo">
+      <img class="press-logo" src="cats/tnw.png" alt="tnw-logo">
+      <img class="press-logo" src="cats/bizinsider.png" alt="biz-insider-logo">
+  </section>
+
+<section id="help">
+  <div class="help-div row">
+    <div class="help-text col-lg-6">
+      <p>Have Questions or Concerns?</p>
+      <h2 class="help-title">We're here to help.</h2>
+      <p>Contact us here:</p>
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="inputPassword2" class="sr-only">Password</label>
+          <input type="email" class="form-control" style="margin-left: 25px;"id="inputEmail" placeholder="email address">
+          <button type="submit" class="btn btn-light" style="margin: 10px">Sign Me Up!</button>
+        </div>
+      </form>
+  </div>
+    <div class="help-image col-lg-6">
+      <img src="cats/te.jpg">
+    </div>
+</section>
+
+
+
+
+
+
+  <!--Need to be in footer <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+  <!--Bootsrap Javascript Links-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+
+</html>
